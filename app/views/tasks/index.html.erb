@@ -1,3 +1,4 @@
+<%= image_tag avatar_url(current_user) %> <br/>
 <%= link_to 'All', list_tasks_path(current_list) %>
 |
 <%= link_to 'Done', filtered_list_tasks_path(current_list, :done) %>
